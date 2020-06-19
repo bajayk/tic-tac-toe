@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    
+    <div class="game-header">
+        <div class="game-title">Tic Tac Toe</div>
+    </div>
+    <div class="game-body">
+        <div class="frame">
+            <div class="row" data-row-index="0">
+                <div class="tile" data-row-index="0" data-col-index="0" data-player='x'></div>
+                <div class="tile" data-row-index="0" data-col-index="1" data-player='x'></div>
+                <div class="tile" data-row-index="0" data-col-index="2" data-player='o'></div>
+            </div>            
+            <div class="row" data-row-index="1">
+                <div class="tile" data-row-index="1" data-col-index="0" data-player='x'></div>
+                <div class="tile" data-row-index="1" data-col-index="1" data-player='o'></div>
+                <div class="tile" data-row-index="1" data-col-index="2" data-player='o'></div>
+            </div>            
+            <div class="row" data-row-index="2">
+                <div class="tile x-w" data-row-index="2" data-col-index="0" data-player='o'></div>
+                <div class="tile o-w" data-row-index="2" data-col-index="1" data-player='x'></div>
+                <div class="tile" data-row-index="2" data-col-index="2" data-player='x'></div>
+            </div>            
+        </div>
+    </div>
+    <div class="game-footer">
+        <div class="messages"></div>
+    </div>
+
+</body>
+</html>
